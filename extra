@@ -1,6 +1,6 @@
 https://github.com/Aakashdeveloper
 https://nodejs.org/en/
-https://nodejs.org/en/
+https://code.visualstudio.com/download
 
 Basic JavaScript
 Npm
@@ -14,12 +14,14 @@ Depolyment
 -> heroku
 -> Nginx
 Github
+
 React-GraphQL-1
 React_hooks -1
 Basic React Native=1
 React-Redux =1
 React-Redux =1
 Testing Jest Enzime
+
 React-Saga -1
 React-with-typescript-1
 --------NOT Backend--------------
@@ -86,9 +88,41 @@ Step to generate react app
 > go inside the folder 
 > create-react-app appname 
 
+>>>>>>><<<<<<<<
+npx create-react-app appname
+
 ////////////////////////
 Step to run react app 
 ////////////////////////////////
 > go inside the folder 
 > npm start 
 > localhost:3000
+
+
+React > main library
+ReactDOM > Help to render content
+ReactScript > Help to run application
+
+function test(a,b){
+    var out = [a,b]
+    return a,b
+}
+
+
+test(1,2)
+2
+test(5,1)
+1
+
+////////////////
+functional 
+> dumb component 
+> We use for display purpose
+> it cannot maintain state
+
+class Component
+> logical Component
+> we use for calling api, write logics as well as display
+> it can maintain state
+
+hooks Component

@@ -1,0 +1,34 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+var Header = require('./component/Header');
+var Footer = require('./component/Footer');
+/*import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer'*/
+
+function App(){
+    return(
+        <React.Fragment>
+            <Header/>
+            <h1>Say Hi To React</h1>
+            <h2>React</h2>
+            <Footer/>
+        </React.Fragment>
+    )
+}
+
+/*
+const App = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <h1>Say Hi To React</h1>
+            <h2>React</h2>
+            <Footer/>
+        </React.Fragment>
+    )
+}
+*/
+
+ReactDOM.render(<App/>, document.getElementById('root'))
