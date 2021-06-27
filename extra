@@ -126,3 +126,58 @@ class Component
 > it can maintain state
 
 hooks Component
+
+
+>>>>>><<<<<<<<>>>>
+map 
+filter  
+indexof 
+
+state
+> local variables
+> each component can have its own state 
+> we can update the value of state (mutable)
+> Any data interaction will happen through state only 
+
+props
+> props help to transfer the data from one component ot Other
+> we cannot update value of props (immutable)
+> data can be pass between nested component only
+
+> whenever state change happen 
+it will call render 
+
+
+var a = [3,4,5,7,3]
+a.map((data) => {return data*2})
+[6, 8, 10, 14, 6]
+
+child > parent
+(home > header) use props  
+
+parent > child
+(header > home) uses props with function
+
+//parent 
+function add(a,b){
+    return a+b 
+}
+
+//child (Call the function and pass the data)
+add(1,2)
+
+var a = [3,4,5,7,6,3,2,8]
+a.filter((data) => {return data>5})
+[7, 6, 8]
+
+
+var a = ["Delhi","London","Newyork"]
+
+a.indexOf('Delhi')
+0
+a.indexOf('Newyork')
+2
+a.indexOf('Mumbai')
+-1
+a.indexOf('Paris')
+-1
