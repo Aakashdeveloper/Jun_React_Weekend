@@ -181,3 +181,12 @@ a.indexOf('Mumbai')
 -1
 a.indexOf('Paris')
 -1
+
+npm i react-router-dom
+
+params / (we need define them)
+QueryParams ? (no need to define)
+
+history > redirection
+location > QueryParams
+match > params
