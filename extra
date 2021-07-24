@@ -206,3 +206,10 @@ match > params
 (get) quickSearch>    https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+
+
+//////dummy api////////
+npm i -g json-server
+
+json-server --watch booking.json --port 9700

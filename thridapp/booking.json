@@ -1,0 +1,28 @@
+{
+  "booking": [
+    {
+      "id": 8075,
+      "hotel_name": "Hometel Chandigarh",
+      "cost": "2419",
+      "name": "Bhumika",
+      "email": "bhumika@gmail.com",
+      "phone": "7868767787"
+    },
+    {
+      "id": 218083,
+      "hotel_name": "Pride Plaza Hotel ",
+      "cost": "4000",
+      "name": "Karan",
+      "email": "karan@gmail.com",
+      "phone": "7867767676"
+    },
+    {
+      "id": 588846,
+      "hotel_name": "DoubleTree by Hilton",
+      "cost": "2419",
+      "name": "Gaurav",
+      "email": "gaurav@gmail.com",
+      "phone": "878778878"
+    }
+  ]
+}
